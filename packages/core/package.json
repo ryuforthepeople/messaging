@@ -1,0 +1,57 @@
+{
+  "name": "@for-the-people/messaging-core",
+  "version": "1.0.0",
+  "description": "Provider-agnostic messaging module with E2E encryption",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "tweetnacl": "^1.0.3",
+    "tweetnacl-util": "^0.15.1"
+  },
+  "peerDependencies": {
+    "@supabase/supabase-js": "^2.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@supabase/supabase-js": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@supabase/supabase-js": "^2.49.8",
+    "@types/node": "^22.15.31",
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "keywords": [
+    "messaging",
+    "chat",
+    "e2e-encryption",
+    "supabase",
+    "realtime"
+  ],
+  "author": "For the People",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryuforthepeople/messaging"
+  }
+}
