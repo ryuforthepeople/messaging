@@ -1,5 +1,5 @@
 {
-  "name": "@for-the-people/messaging",
+  "name": "@for-the-people-initiative/messaging",
   "version": "0.1.0",
   "scripts": {
     "build": "turbo build",

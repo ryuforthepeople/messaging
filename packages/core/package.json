@@ -1,5 +1,5 @@
 {
-  "name": "@for-the-people/messaging-core",
+  "name": "@for-the-people-initiative/messaging-core",
   "version": "1.0.0",
   "description": "Provider-agnostic messaging module with E2E encryption",
   "type": "module",

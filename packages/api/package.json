@@ -1,5 +1,5 @@
 {
-  "name": "@for-the-people/messaging-api",
+  "name": "@for-the-people-initiative/messaging-api",
   "version": "1.0.0",
   "description": "Hono-based REST API for messaging module",
   "type": "module",
@@ -22,7 +22,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "@for-the-people/messaging-core": "workspace:*",
+    "@for-the-people-initiative/messaging-core": "workspace:*",
     "hono": "^4.7.11"
   },
   "devDependencies": {
