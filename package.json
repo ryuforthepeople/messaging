@@ -1,7 +1,6 @@
 {
   "name": "@for-the-people/messaging",
-  "version": "0.0.0",
-  "private": true,
+  "version": "0.1.0",
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
